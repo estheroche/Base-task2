@@ -1,0 +1,22 @@
+import { useState } from "react";
+import "./App.css";
+import WalletConnector from "./WalletConnector";
+import BalanceViewer from "./BalanceViewer";
+
+function App() {
+  const [account, setAccount] = useState(null);
+
+  return (
+    <div className="app-root">
+      <header>
+        <h1>Base Wallet Viewer</h1>
+      </header>
+      <main>
+        <WalletConnector onConnect={(acct) => setAccount(acct)} />
+        <BalanceViewer account={account} />
+      </main>
+    </div>
+  );
+}
+
+export default App;
