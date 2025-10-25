@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>task2</title>
-  </head>
+    <title>Base Wallet Viewer</title>
+    <meta name="fc:miniapp" content='{
+      "version":"next",
+      "imageUrl":"https://your-app-url.com/embed-image",
+      "button":{
+        "title":"Check Balances",
+        "action":{
+          "type":"launch_miniapp",
+          "name":"Base Wallet Viewer",
+          "url":"https://base-balance-viewer.vercel.app/",
+          "splashImageUrl": "https://your-app-url.com/splash.png",
+          "splashBackgroundColor": "#000000"
+        }
+      }
+    }' />
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>

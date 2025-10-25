@@ -10,10 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
     "@coinbase/onchainkit": "^1.1.1",
-    "ethers": "^6.9.0"
+    "@farcaster/miniapp-sdk": "^0.2.1",
+    "ethers": "^6.9.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",

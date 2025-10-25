@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "baseBuilder": {
+    "ownerAddress": "0x4A20d8784887fc29528308D3073c202d8ef5d57a"
+  },
+  "miniapp": {
+    "version": "1",
+    "name": "Base Wallet Viewer",
+    "homeUrl": "https://base-balance-viewer.vercel.app/",
+    "iconUrl": "https://your-app-url.com/icon.png",
+    "splashImageUrl": "https://your-app-url.com/splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "",
+    "subtitle": "View Base wallet balances",
+    "description": "A simple way to view your Base Sepolia and Base Mainnet balances.",
+    "screenshotUrls": [],
+    "primaryCategory": "defi",
+    "tags": ["wallet", "base", "balance"],
+    "heroImageUrl": "https://your-app-url.com/hero.png",
+    "tagline": "Check your Base balances instantly",
+    "ogTitle": "Base Wallet Viewer",
+    "ogDescription": "View your Base network balances in one place",
+    "ogImageUrl": "https://your-app-url.com/og.png",
+    "noindex": true
+  }
+}
